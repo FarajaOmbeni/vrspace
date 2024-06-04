@@ -1,7 +1,7 @@
 <template>
   <footer class="footer border-t-2 border-t-blue">
     <div class="container mx-auto text-center py-8">
-      <h1 class="text-3xl font-header font-bold">EXPERIENCE VR NOW</h1>
+      <h1 class="text-3xl text-blue font-header font-bold">EXPERIENCE VR NOW</h1>
       <p class="max-w-lg mx-auto mt-4 leading-7 font-semibold">
         Ready to make your event unforgettable? Partner with VR SPACE for any VR-related occasion,
         be it birthdays, teambuilding events, or educational sessions. Our cutting-edge VR experiences guarantee fun,
