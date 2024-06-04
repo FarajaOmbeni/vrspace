@@ -1,13 +1,12 @@
 <template>
     <Layout>
-
-        <Head title="Contact" />
+        <Head title="About"/>
         <div>
-            <p>Contact us</p>
+            <p>About</p>
         </div>
-
     </Layout>
 </template>
+ 
 <script setup>
 import Layout from '@/Layouts/Layout.vue';
 </script>

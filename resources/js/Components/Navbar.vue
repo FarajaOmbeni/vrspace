@@ -42,26 +42,26 @@
             <ul class="flex gap-5">
                 <li>
                     <Link href="/" class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url.startsWith('/') }">
+                        v-bind:class="{ 'active': $page.url === '/' }">
                     HOME</Link>
                 </li>
                 <li>
                     <Link href="/experiences"
                         class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url.startsWith('/experiences') }">
+                        v-bind:class="{ 'active': $page.url === '/experiences' }">
                     EXPERIENCES</Link>
                 </li>
                 <li>
                     <Link href="/about"
                         class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url.startsWith('/about') }">
+                        v-bind:class="{ 'active': $page.url === '/about' }">
                     ABOUT US
                     </Link>
                 </li>
                 <li>
                     <Link href="/contact"
                         class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url.startsWith('/contact') }">CONTACT
+                        v-bind:class="{ 'active': $page.url === '/contact' }">CONTACT
                     US</Link>
                 </li>
             </ul>
@@ -80,7 +80,8 @@ const openMenu = () => {
 .active {
     border-bottom-color: pink !important;
 }
-.menu_dropdown{
+
+.menu_dropdown {
     right: -10px;
 }
 </style>
