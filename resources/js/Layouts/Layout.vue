@@ -4,7 +4,7 @@
          <Navbar></Navbar>
       </div>
 
-      <div class="py-24">
+      <div class="py-20">
          <slot></slot>
       </div>
 
