@@ -19,7 +19,7 @@ export default {
             },
             fontFamily: {
                 header: ["Oswald"],
-                body: ["Libre Baskerville"],
+                body: ["Bw Gradual"],
             },
         },
     },
