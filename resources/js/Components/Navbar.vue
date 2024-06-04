@@ -1,6 +1,8 @@
 <template>
-    <div class="bg-blue flex justify-between p-2 md:pr-16 items-center">
-        <div><img class="w-24" src="/images/navbar/vrspace_logo.png" alt=""></div>
+    <div class="bg-blue flex justify-between p-2 md:pr-16 items-center fixed w-full">
+        <div>
+            <Link href="/"><img class="w-24" src="/images/navbar/vrspace_logo.png" alt=""></Link>
+        </div>
 
         <div class="relative md:hidden">
             <img @click="openMenu" class="cursor-pointer mr-4" src="/images/navbar/menu.svg" alt="">
