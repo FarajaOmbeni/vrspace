@@ -4,19 +4,22 @@ import forms from '@tailwindcss/forms';
 /** @type {import('tailwindcss').Config} */
 export default {
     content: [
-        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
-        './resources/js/**/*.vue',
+        "./vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php",
+        "./storage/framework/views/*.php",
+        "./resources/views/**/*.blade.php",
+        "./resources/js/**/*.vue",
     ],
 
     theme: {
-        colors: {
-
-        },
         extend: {
+            colors: {
+                blue: "#000133",
+                purple: "#815CA7",
+                pink: "#F0BEBE",
+            },
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],                
+                header: ["Oswald"],
+                body: ["Libre Baskerville"],
             },
         },
     },
