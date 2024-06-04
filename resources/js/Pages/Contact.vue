@@ -3,7 +3,53 @@
 
         <Head title="Contact" />
         <div>
-            <p>Contact us</p>
+            <div class="bg-cover bg-center h-screen" style="background-image: url('/images/contact_us/contact_us.png');">
+                <div class="h-screen flex flex-col items-center justify-center text-6xl font-extrabold text-blue">
+                    <p >CONTACT</p>
+                    <p>-</p>
+                    <p>VR SPACE</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center gap-10 text-center mt-10">
+                <div class="bg-purple p-10 rounded-lg">
+                    <h2 class="text-3xl font-extrabold text-blue font-bold mb-5">GET IN TOUCH</h2>
+                    
+                    <div class="mb-6">
+                        <h3 class="bg-pink text-blue text-xl font-bold py-2 px-4 rounded mx-auto">LOCATIONS</h3>
+                        <p class="text-left text-lg font-bold mt-3">The Imaara Mall, Mombasa Road, 2nd Floor</p>
+                    </div>
+
+                    <div class="mb-6">
+                        <h3 class="bg-pink text-blue text-xl font-bold py-2 px-4 rounded mx-auto">CONTACTS</h3>
+                        <p class="text-left text-lg font-bold mt-3">Phone: +254729054606</p>
+                        <p class="text-left text-lg font-bold">Email: vrspace@jofargroAp.com</p>
+                    </div>
+
+                    <div>
+                        <h3 class="bg-pink text-blue text-xl font-bold py-2 px-4 rounded mx-auto ">SOCIALS</h3>
+                        <p class="text-left text-lg font-bold mt-3">Instagram: vrspace</p>
+                        <p class="text-left text-lg font-bold">TikTok: vrspace</p>
+                        <p class="text-left text-lg font-bold">LinkedIn: vrspace</p>
+                    </div>
+                </div>
+
+                <div class="bg-purple p-10 rounded-lg">
+                    <h2 class="text-3xl font-extrabold text-blue font-bold mb-8">CONTACT US</h2>
+                    <form action="" class="flex flex-col gap-4">
+                        <div class="flex gap-4">
+                            <input type="text" placeholder="First Name" class="p-2 border rounded w-1/2">
+                            <input type="text" placeholder="Last Name" class="p-2 border rounded w-1/2">
+                        </div>
+                        <input type="email" placeholder="Email" class="p-2 border rounded w-full">
+                        <input type="text" placeholder="Phone Number" class="p-2 border rounded w-full">
+                        <textarea placeholder="Message" class="p-2 border rounded w-full resize-none overflow-y-auto h-24"></textarea>
+                        <input type="submit" value="SEND MESSAGE" class="p-2 bg-pink text-blue font-bold rounded hover:bg-opacity-90 cursor-pointer">
+                    </form>
+                </div>
+            </div>
+
+
         </div>
 
     </Layout>
