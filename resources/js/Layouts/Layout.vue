@@ -1,9 +1,18 @@
 <template>
- <div class="font-body">
-    <Navbar></Navbar>
-    <slot></slot>
-    <Footer></Footer>
- </div>
+   <div class="font-body">
+      <div>
+         <Navbar></Navbar>
+      </div>
+
+      <div class="py-24">
+         <slot></slot>
+      </div>
+
+
+      <div>
+         <Footer></Footer>
+      </div>
+   </div>
 </template>
  
 <script setup>
