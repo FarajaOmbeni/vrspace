@@ -76,4 +76,4 @@
 <script setup>
 import QuickLink from '@/Shared/QuickLink.vue';
 
-</script>@/Components/Shared/QuickLink.vue
+</script>
