@@ -3,17 +3,14 @@
 
         <Head title="Home" />
         <div class="bg-cover bg-center h-screen mb-16" style="background-image: url('/images/home/hero_bg.png');">
-            <div class="w-1/3 mx-32 pt-32">
-                <p class="font-header text-4xl font-bold text-blue text-end">VIRTUAL REALITY SPACE</p>
-                <p class="text-xl font-bold text-pink text-end mb-8">More Than Just Games</p>
-                <p class="leading-7 text-xl font-bold text-white text-justify">Discover an unparalleled virtual reality
-                    gaming
-                    experience at VR SPACE. Whether you're a seasoned
-                    gamer or a first-time explorer, our immersive VR
-                    experiences promise adventure, excitement, and
-                    endless fun. Ready to dive in? Click below to start
-                    exploring.</p>
-                <div class="flex justify-end">
+            <div class="lg:w-1/3 mx-16  lg:mx-32 pt-32">
+                <p class="font-header text-4xl font-bold text-blue lg:text-end text-center">VIRTUAL REALITY SPACE</p>
+                <p class="text-xl font-bold text-pink lg:text-end text-center mb-8">More Than Just Games</p>
+                <p class="text-justify leading-7 text-xl font-bold text-white text-center">Discover an unparalleled
+                    virtual reality gaming experience at VR SPACE. Whether you're a seasoned gamer or a first-time
+                    explorer, our immersive VR experiences promise adventure, excitement, and endless fun. Ready to dive
+                    in? Click below to start exploring.</p>
+                <div class="flex justify-center lg:justify-end">
                     <Link href="/experiences"
                         class="text-white rounded-full bg-purple mt-5 py-3 px-10 text-xs font-bold hover:opacity-80">
                     EXPERIENCE VR NOW</Link>
@@ -21,28 +18,11 @@
             </div>
         </div>
 
-        <div class="flex gap-32 w-2/3 mx-auto justify-center mb-16">
-            <div>
-                <img class="w-2/1" src="/images/home/imagine.jpeg" alt="">
-            </div>
-            <div>
-                <h1 class="text-4xl font-header font-bold mb-6">IMAGINE, <span class="text-purple">EXPLORE</span>,
-                    <span class="text-pink">EXPERIENCE</span>
-                </h1>
+        <HomeOdd imagine="IMAGINE, " explore="EXPLORE, " experience="EXPERIENCE." image_link="/images/home/imagine.jpeg"
+            description="Choose the plan that suits you best and dive into the world of VR gaming. We offer flexible pricing options to ensure everyone can enjoy our immersive experiences."
+            link="/experiences"
+            button="VIEW EXPERIENCES" />
 
-                <div class="flex flex-col gap-8 mb-14 text-2xl">
-                    <p>Choose the plan that suits you best
-                        and dive into the world of VR gaming.</p>
-
-
-                    <p>We offer flexible pricing options to
-                        ensure everyone can enjoy our
-                        immersive experiences.</p>
-                </div>
-
-                <Link class="bg-purple p-4 text-white font-bold hover:opacity-80">VIEW EXPERIENCES</Link>
-            </div>
-        </div>
 
         <div class="flex flex-col items-center gap-4 pb-12 border-b-2 border-b-blue">
             <p class="bg-blue text-pink font-bold text-xl p-2">LOCATED IN</p>
@@ -67,8 +47,7 @@
 
             <HomeOdd title="BIRTHDAY PARTIES" image_link="/images/home/on_demand.jpeg"
                 description="Make your birthday unforgettable with VR SPACE! Hire us for your party and enjoy epic VR games that'll keep everyone entertained and talking about your party for months!"
-                link="/contact"
-                button="ENQUIRE" />
+                link="/contact" button="ENQUIRE" />
 
             <HomeEven title="VR FOR EVENTS" image_link="/images/home/events.jpeg"
                 description="Level up your events with VR SPACE! Our VR Technology is perfect for team-building becasue it makes everyone bond and have a blast like never before. Work hard, play harder; Let's make it epic!"
