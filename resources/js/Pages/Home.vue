@@ -3,10 +3,10 @@
 
         <Head title="Home" />
         <div class="bg-cover bg-center h-screen mb-16" style="background-image: url('/images/home/hero_bg.png');">
-            <div class="lg:w-1/3 mx-16  lg:mx-32 pt-32">
+            <div class="h-screen flex flex-col items-center justify-center">
                 <p class="font-header text-4xl font-bold text-blue lg:text-end text-center">VIRTUAL REALITY SPACE</p>
                 <p class="text-xl font-bold text-pink lg:text-end text-center mb-8">More Than Just Games</p>
-                <p class="text-justify leading-7 text-xl font-bold text-white text-center">Discover an unparalleled
+                <p class=" leading-8 text-xl font-bold text-white text-center w-[40rem]">Discover an unparalleled
                     virtual reality gaming experience at VR SPACE. Whether you're a seasoned gamer or a first-time
                     explorer, our immersive VR experiences promise adventure, excitement, and endless fun. Ready to dive
                     in? Click below to start exploring.</p>
