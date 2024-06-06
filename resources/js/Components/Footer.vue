@@ -1,7 +1,7 @@
 <template>
   <footer class="footer border-t-2 border-t-blue">
-    <div class="container mx-auto text-center py-8">
-      <h1 class="text-3xl font-header font-bold">EXPERIENCE VR NOW</h1>
+    <div class="container px-6 sm:px-0 mx-auto text-center py-8">
+      <h1 class="text-3xl text-blue font-header font-bold">EXPERIENCE VR NOW</h1>
       <p class="max-w-lg mx-auto mt-4 leading-7 font-semibold">
         Ready to make your event unforgettable? Partner with VR SPACE for any VR-related occasion,
         be it birthdays, teambuilding events, or educational sessions. Our cutting-edge VR experiences guarantee fun,
@@ -14,7 +14,7 @@
     </div>
 
     <div class="mt-10 bg-blue">
-      <div class="flex md:gap-40 gap-2 flex-col md:flex-row items-center justify-center">
+      <div class="flex md:gap-40 gap-2 flex-col text-center md:flex-row items-center justify-center">
         <div class="mt-3">
           <p class="text-pink text-lg">Quick Links</p>
           <ul class="text-white py-3">
@@ -68,8 +68,7 @@
           </ul>
         </div>
       </div>
-      <p class="text-center text-lg text-xs mt-5 py-2 text-white">© 2024 VR SPACE. All rights reserved. | Privacy Policy
-        | Terms of Service</p>
+      <p class="text-center text-lg text-xs mt-5 py-2 text-white">Copyright © 2024 VR SPACE. All rights reserved.</p>
     </div>
   </footer>
 </template>
