@@ -11,7 +11,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col md:flex-row justify-center gap-10 text-center mt-10 mx-12 md:gap-2 lg:gap-10 md:mx-2">
+            <div class="pb-20 flex flex-col md:flex-row justify-center gap-10 text-center mt-10 mx-12 md:gap-2 lg:gap-10 md:mx-2">
                 <div class="bg-purple p-10 rounded-lg">
                     <h2 class="text-3xl font-extrabold text-blue font-bold mb-5">GET IN TOUCH</h2>
                     
