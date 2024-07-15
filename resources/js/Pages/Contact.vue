@@ -55,26 +55,26 @@
     </Layout>
 </template>
 <script setup>
-import Layout from '@/Layouts/Layout.vue';
-import { useForm } from '@inertiajs/vue3';
-let form = useForm({
-    firstname: '',
-    lastname: '',
-    email: '',
-    phonenumber: '',
-    message: ''
-});
+// import Layout from '@/Layouts/Layout.vue';
+// import { useForm } from '@inertiajs/vue3';
+// let form = useForm({
+//     firstname: '',
+//     lastname: '',
+//     email: '',
+//     phonenumber: '',
+//     message: ''
+// });
 
-function submit() {
-    form.post("/createcontact", {
-        preserveScroll: true,
-        onSuccess: () => {
-            form.firstname = '';
-            form.lastname = '';
-            form.email = '';
-            form.phonenumber = '';
-            form.message = '';
-        }
-    });
-}
+// function submit() {
+//     form.post("/createcontact", {
+//         preserveScroll: true,
+//         onSuccess: () => {
+//             form.firstname = '';
+//             form.lastname = '';
+//             form.email = '';
+//             form.phonenumber = '';
+//             form.message = '';
+//         }
+//     });
+// }
 </script>

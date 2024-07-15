@@ -27,7 +27,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return Inertia::render('Contact');
 });
-Route::post('/createcontact', [ContactController::class, 'createContact']);
+// Route::post('/createcontact', [ContactController::class, 'createContact']);
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
