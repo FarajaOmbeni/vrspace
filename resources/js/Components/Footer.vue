@@ -1,16 +1,15 @@
 <template>
   <footer class="footer border-t-2 border-t-blue">
-    <div class="container px-6 sm:px-0 mx-auto text-center py-8">
+    <div class="container flex flex-col items-center px-6 sm:px-0 mx-auto text-center py-8">
       <h1 class="text-3xl text-blue font-header font-bold">EXPERIENCE VR NOW</h1>
-      <p class="max-w-lg mx-auto mt-4 leading-7 font-semibold">
+      <p class="max-w-5xl mx-auto mt-4 leading-7 font-semibold">
         Ready to make your event unforgettable? Partner with VR SPACE for any VR-related occasion,
         be it birthdays, teambuilding events, or educational sessions. Our cutting-edge VR experiences guarantee fun,
         engagement, and memories that’ll last a lifetime. Let’s create something epic together!
       </p>
-      <button class="text-white rounded-full bg-purple mt-5 py-3 px-10 text-xs font-bold hover:opacity-95">
-        <Link href="/experiences">EXPERIENCE VR
-        NOW</Link>
-      </button>
+      <Link href="/experiences"
+        class="text-white flex justify-center items-center  rounded-full bg-purple w-[20rem] h-[4rem] mt-5 py-3 px-10 text-xl font-bold hover:transition-all delay-30 hover:opacity-85 hover:text-slate-300">
+      EXPERIENCE VR NOW</Link>
     </div>
 
     <div class="mt-10 bg-blue">

@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-blue flex justify-between p-2 md:pr-16 items-center fixed w-full">
+    <div class="z-1000 bg-blue flex justify-between p-2 md:pr-16 items-center fixed w-full">
         <div>
             <Link href="/"><img class="w-24" src="/images/navbar/vrspace_logo.png" alt=""></Link>
         </div>
@@ -10,29 +10,25 @@
             <div class="hidden bg-blue text-white absolute p-6 top-18 menu_dropdown">
                 <ul class="flex flex-col gap-5">
                     <li>
-                        <Link href="/"
-                            class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                            v-bind:class="{ 'active': $page.url.startsWith('/') }">
-                        HOME</Link>
+                        <NavLink href="/"
+                            v-bind:class="{ 'active': $page.url === '/' }">
+                        HOME</NavLink>
                     </li>
                     <li>
-                        <Link href="/experiences"
-                            class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                            v-bind:class="{ 'active': $page.url.startsWith('/experiences') }">
-                        EXPERIENCES</Link>
+                        <NavLink href="/experiences"
+                            v-bind:class="{ 'active': $page.url === '/experiences' }">
+                        EXPERIENCES</NavLink>
                     </li>
                     <li>
-                        <Link href="/about"
-                            class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                            v-bind:class="{ 'active': $page.url.startsWith('/about') }">
+                        <NavLink href="/about"
+                            v-bind:class="{ 'active': $page.url ==='/about' }">
                         ABOUT US
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link href="/contact"
-                            class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                            v-bind:class="{ 'active': $page.url.startsWith('/contact') }">CONTACT
-                        US</Link>
+                        <NavLink href="/contact"
+                            v-bind:class="{ 'active': $page.url ==='/contact' }">CONTACT
+                        US</NavLink>
                     </li>
                 </ul>
             </div>
@@ -41,28 +37,25 @@
         <div class="text-white hidden md:block sm:text-lg md:text-xl">
             <ul class="flex gap-5">
                 <li>
-                    <Link href="/" class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url === '/' }">
-                    HOME</Link>
+                    <NavLink href="/"                     
+                    v-bind:class="{ 'active': $page.url === '/' }">
+                    HOME</NavLink>
                 </li>
                 <li>
-                    <Link href="/experiences"
-                        class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url === '/experiences' }">
-                    EXPERIENCES</Link>
+                    <NavLink href="/experiences"
+                    v-bind:class="{ 'active': $page.url === '/experiences' }">
+                    EXPERIENCES</NavLink>
                 </li>
                 <li>
-                    <Link href="/about"
-                        class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url === '/about' }">
+                    <NavLink href="/about"
+                    v-bind:class="{ 'active': $page.url === '/about' }">
                     ABOUT US
-                    </Link>
+                    </NavLink>
                 </li>
                 <li>
-                    <Link href="/contact"
-                        class="border-b-2 border-transparent hover:border-pink transition-all duration-500"
-                        v-bind:class="{ 'active': $page.url === '/contact' }">CONTACT
-                    US</Link>
+                    <NavLink href="/contact"
+                    v-bind:class="{ 'active': $page.url === '/contact' }">CONTACT
+                    US</NavLink>
                 </li>
             </ul>
         </div>
@@ -70,6 +63,7 @@
 </template>
 
 <script setup>
+import NavLink from '@/Components/NavLink.vue';
 // create a function called openMenu that toggles the visibility of the menu
 const openMenu = () => {
     document.querySelector('.absolute').classList.toggle('hidden');
@@ -78,7 +72,8 @@ const openMenu = () => {
 
 <style scoped>
 .active {
-    border-bottom-color: pink !important;
+    background-color: #F180C5 !important;
+    color: #000133;
 }
 
 .menu_dropdown {

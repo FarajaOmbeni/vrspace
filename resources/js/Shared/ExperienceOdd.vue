@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col items-center lg:flex-row justify-center xl:gap-32 mb-32 md:gap-14">
-    <div class="w-[25rem] xl:w-[30rem] lg:block lg:none my-auto"><img :src="image_link" alt="">
+    <div class="w-[25rem] xl:w-[30rem] lg:block my-auto"><img :src="image_link" alt="">
     </div>
     <div
       class="lg:w-1/2 mx-8 text-justify lg:text-start flex flex-col items-center lg:w-[20rem] lg:justify-center lg:items-start bg-purple rounded-2xl">

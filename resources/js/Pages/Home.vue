@@ -4,15 +4,17 @@
         <Head title="Home" />
         <div class="bg-cover bg-center h-screen mb-16" style="background-image: url('/images/home/hero_bg.png');">
             <div class="h-screen flex flex-col items-center justify-center">
-                <p class="font-header text-4xl font-bold text-blue lg:text-end text-center">VIRTUAL REALITY SPACE</p>
-                <p class="text-xl font-bold text-pink lg:text-end text-center mb-8">More Than Just Games</p>
-                <p class=" leading-8 text-xl font-bold text-white text-center w-[40rem]">Discover an unparalleled
+                <p class="font-header text-6xl font-bold text-blue lg:text-end text-center">VIRTUAL REALITY SPACE</p>
+                <p class="text-2xl font-bold text-black lg:text-end text-center mb-8">More Than Just Games</p>
+                <p
+                    class="leading-8 text-xl font-bold text-blue rounded-xl bg-home_text shadow-xl mx-4 py-5 px-3 text-center max-w-[45rem]">
+                    Discover an unparalleled
                     virtual reality gaming experience at VR SPACE. Whether you're a seasoned gamer or a first-time
                     explorer, our immersive VR experiences promise adventure, excitement, and endless fun. Ready to dive
                     in? Click below to start exploring.</p>
                 <div class="flex justify-center lg:justify-end">
                     <Link href="/experiences"
-                        class="text-white rounded-full bg-purple mt-5 py-3 px-10 text-xs font-bold hover:opacity-80">
+                        class="text-white flex justify-center items-center  rounded-full bg-purple w-[20rem] h-[4rem] mt-5 py-3 px-10 text-xl font-bold hover:transition-all delay-30 hover:opacity-85 hover:text-slate-300">
                     EXPERIENCE VR NOW</Link>
                 </div>
             </div>
@@ -20,15 +22,15 @@
 
         <HomeOdd imagine="IMAGINE, " explore="EXPLORE, " experience="EXPERIENCE." image_link="/images/home/imagine.jpeg"
             description="Choose the plan that suits you best and dive into the world of VR gaming. We offer flexible pricing options to ensure everyone can enjoy our immersive experiences."
-            link="/experiences"
-            button="VIEW EXPERIENCES" />
+            link="/experiences" button="VIEW EXPERIENCES" />
 
 
-        <div class="flex flex-col items-center gap-4 pb-12 border-b-2 border-b-blue">
-            <p class="bg-blue text-pink font-bold text-xl p-2">LOCATED IN</p>
+        <div class="flex flex-col items-center gap-6 pb-12 border-b-2 border-b-blue">
+            <p class="bg-blue text-white font-bold text-xl py-4 px-6 rounded">LOCATED IN</p>
             <p class="text-2xl text-blue font-bold">The Imaara Mall, 2nd Floor, Msa Road</p>
-            <div class="bg-blue text-pink font-bold text-xl p-2 hover:opacity-80"><a
-                    href="https://www.google.com/maps/dir/-1.3789618,36.9218576/VR+Space+X,+Nairobi/@-1.3535495,36.8565428,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f13d5d22add99:0x9576944890280a82!2m2!1d36.8806499!2d-1.328436?entry=ttu"
+            <div
+                class="bg-blue font-bold text-xl py-4 px-6 rounded text-white hover:opacity-90 transition-all delay-50">
+                <a href="https://www.google.com/maps/dir/-1.3789618,36.9218576/VR+Space+X,+Nairobi/@-1.3535495,36.8565428,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x182f13d5d22add99:0x9576944890280a82!2m2!1d36.8806499!2d-1.328436?entry=ttu"
                     target="_blank">OPEN
                     MAPS <img src="/images/home/pin_location.png" class="w-6 inline" alt=""></a></div>
         </div>

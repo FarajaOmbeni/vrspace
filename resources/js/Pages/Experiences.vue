@@ -4,10 +4,14 @@
         <Head title="Experiences" />
         <div class="bg-cover bg-center h-screen mb-16"
             style="background-image: url('/images/experiences/experiences.png');">
-            <div class="h-screen flex flex-col items-center justify-center text-6xl font-extrabold text-blue">
-                <p class="text-pink">VR SPACE</p>
-                <p class="text-purple">-</p>
-                <p class="text-purple">EXPERIENCE</p>
+            <div class="h-screen text-6xl font-extrabold text-blue flex items-center justify-center">
+                <div class="flex justify-center items-center w-[28rem] h-[28rem] rounded-full bg-pink_opaque">
+                    <div class="flex flex-col items-center">
+                        <p class="text-blue">VR SPACE</p>
+                        <p class="">-</p>
+                        <p class="text-black">EXPERIENCE</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -34,17 +38,12 @@
         <ExperienceOdd image_link="/images/experiences/magic_ufo.png" title="Magic UFO - Coming Soon!"
             image="/images/experiences/user.png" player="5 Players/Time" time="10 Minutes/Round" price="KES 400"
             description="Rich and diversified games, suitable for all ages" d1="360° rotation for total immersion"
-            d2="Horror Games"
-            d3="Adventure Games"
-            d4="Educational Games"
-             />
+            d2="Horror Games" d3="Adventure Games" d4="Educational Games" />
 
         <ExperienceEven image_link="/images/experiences/aircraft.png" title="Racing Kart VR - Coming Soon!"
             image="/images/experiences/user.png" player="1 Players/Time" time="10 Minutes/Round" price="KES 500"
-            description="Fly your own Jet Fighter!" d1="Very interactive shooting games"
-            d2="Immersion at its PEAK"
-            d3="Great flying experiecne"
-             />
+            description="Fly your own Jet Fighter!" d1="Very interactive shooting games" d2="Immersion at its PEAK"
+            d3="Great flying experiecne" />
     </Layout>
 </template>
  

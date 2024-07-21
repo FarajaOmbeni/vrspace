@@ -15,7 +15,11 @@ export default {
             colors: {
                 blue: "#000133",
                 purple: "#815CA7",
-                pink: "#F0BEBE",
+                pink: "#F180C5",
+                pink_opaque: "#f180c599",
+                blue_opaque: "#00013399",
+                blue_terms: "#815ca733",
+                home_text: "#f180c580",
             },
             fontFamily: {
                 header: ["Oswald"],

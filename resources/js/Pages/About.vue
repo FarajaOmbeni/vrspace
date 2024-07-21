@@ -1,6 +1,7 @@
 <template>
     <Layout>
-        <Head title="About"/>
+
+        <Head title="About" />
         <div>
             <div class="bg-cover bg-center h-screen" style="background-image: url('/images/about_us/about_us.png');">
                 <div class="h-screen flex items-center justify-center text-2xl md:text-4xl font-extrabold gap-12">
@@ -15,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="bg-pink">
+            <div class="bg-blue_terms">
                 <p class="p-20 font-bold text-lg">
                     VR SPACE is a premier entertainment venue specializing in providing immersive virtual reality
                     experiences through new technologies. We offer a diverse array of VR activities that cater to a
@@ -26,7 +27,7 @@
                     Our business operates through three primary VR platforms:<br>
 
                     1. HTC Vive: Delivers a fully immersive gaming experience with a variety of interactive games
-                    suitable for all ages. Users engage in activities ranging from combat to leisure, where their 
+                    suitable for all ages. Users engage in activities ranging from combat to leisure, where their
                     realworld movements are mirrored in the virtAal environment.<br><br>
 
 
